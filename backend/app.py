@@ -9,6 +9,10 @@ CORS(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///proptech.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
+@app.route("/")
+def index():
+    return jsonify({"message": "PropTech API is running ✅"})
+
 db.init_app(app)
 
 with app.app_context():
