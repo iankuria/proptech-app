@@ -2,7 +2,7 @@
 
 A full-stack web application where property seekers can browse available listings, and landlords can advertise their properties. Built with React on the frontend and Flask on the backend.
 
----
+-----
 
 ## What the App Does
 
