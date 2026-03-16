@@ -244,5 +244,10 @@ def delete_review(id):
     return jsonify({"message": "Review deleted."}), 200
 
 
+# if __name__ == "__main__":
+#     app.run(debug=True, port=5555)
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5555)
+    import os
+    port = int(os.environ.get("PORT", 5555))
+    app.run(host="0.0.0.0", port=port, debug=False)
