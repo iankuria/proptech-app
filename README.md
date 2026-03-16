@@ -4,6 +4,9 @@ A full-stack web application where property seekers can browse available listing
 
 -----
 
+Live link: Live link: https://proptech-app-seven.vercel.app/
+
+
 ## What the App Does
 
 - Browse all available property listings on the homepage
