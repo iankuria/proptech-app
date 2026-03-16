@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import PropertyCard from '../components/PropertyCard'
 
-const API = 'http://localhost:5555'
+// const API = 'http://localhost:5555'
+const API = 'https://proptech-app.onrender.com'
 
 export default function Home() {
   const [properties, setProperties] = useState([])

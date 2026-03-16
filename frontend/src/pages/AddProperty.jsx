@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
 
-const API = 'http://localhost:5555'
+// const API = 'http://localhost:5555'
+const API = 'https://proptech-app.onrender.com'
 
 const PropertySchema = Yup.object({
   title: Yup.string()
